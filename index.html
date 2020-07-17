@@ -1,1 +1,103 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="nouislider.css" type="text/css" rel="stylesheet">
+	<script src="script.js"></script>
+	<script src="nouislider.js"></script>
+	<script src="https://unpkg.com/wnumb@1.1.0"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> 
+ 
+</head>
+<body onload="initialiseContent()" >
+<div>
+	<div class="top">
+		<div class="div-container">
+			<img class="logo" src="images/logo.png"> 
+			<p class="logo-name">EUREKA CAFFE</p>
+			<ul id="no-bullets" class="menu">
+				<li class="list-item"> HOME </li>
+				<span class='bullet'></span>
+				<li class="list-item"> ABOUT </li>
+				<span class='bullet'></span>
+				<li class="list-item"> SERVICE </li>
+				<span class='bullet'></span>
+				<li class="list-item"> BLOG </li>
+				<span class='bullet'></span>
+				<li class="list-item"> CONTACTS </li>
+			</ul>
+		</div>
+		<h1 class="title"> Ordering Food </h1>
+		<div class="lines-container">
+			<div class="holder">
+  				<div class="tinyLine tinyLine1"></div>
+    			<div class="tinyLine tinyLine2"></div>
+			</div>
+			<img src="images/cutlery.jpg" class="logo2">
+			<div class="holder">
+  				<div class="tinyLine tinyLine1"></div>
+    			<div class="tinyLine tinyLine2"></div>
+			</div>
+		</div>	
+		<div class="paragraph1">
+			<p class="paragraph2">Maecenas vells at magna sagittis venenatis. Integer pretium auctor magna, egestas justo gravida vitae. In lacinia auctor auctor.
+			</p>
+		</div>
+	</div>
+	<div class="nav">
+		<ul id="no-bullets" class="navigation-list">
+			<li class="navigation-item dropdown active">
+				<a class="nav-link" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    <span class="arrow down arrows"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Main Course</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Soups</a>
+                </div>
+
+			</li>
+			<li class="navigation-item dropdown active">
+				<a class="nav-link" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sorting
+                     <span class="arrow down arrows"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">1</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">2</a>
+                </div>
+			</li>
+			<li class="navigation-item dropdown active">
+				<a class="nav-link" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Vegetarian
+                    <span class="arrow down arrows"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Main Course</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Soups</a>
+                </div>
+			</li>
+		</ul>
+		<p class="paragraph3">Price</p>
+		<div id="range" > </div>
+    </div> 
+	<div id="div-container2" > </div>
+	
+</div>
+</body>
+</html>
