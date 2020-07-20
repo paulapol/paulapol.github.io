@@ -1,6 +1,6 @@
-function initialiseContent() {
-	initialiseSlider();
+function initialiseContent() {	
 	initialiseMenu();
+	initialiseSlider();
 	populateMenu();
 }
 
